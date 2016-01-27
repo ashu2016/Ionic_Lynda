@@ -37,7 +37,7 @@
       </ion-tabs>
       
       <ion-content>
-           <div class="list">
+           <div class="list list-inset">
               <label class="item item-input item-stacked-label">
                   <span class="input-label">First Name</span>
                   <input type="text" placeholder="Your First Name">
@@ -48,13 +48,45 @@
                   <input type="text" placeholder="Your Last Name">
               </label>
               
-              <div class="item item-input-inset">
-                  <label class="item-input-wrapper">
-                      <input type="text" placeholder="address">
+              <div class="item item-divider">I want to be a ...</div>
+              
+              <div class="item item-checkbox">
+                  <label class="checkbox">
+                      <input type="checkbox">
                   </label>
-                  <button class="button button-small">search</button>
+                  <span class="input-label">Rockstar</span>
               </div>
               
+                <div class="item item-checkbox">
+                  <label class="checkbox">
+                      <input type="checkbox">
+                  </label>
+                  <span class="input-label">Hollywood Star</span>
+              </div>
+              
+                <div class="item item-checkbox">
+                  <label class="checkbox">
+                      <input type="checkbox">
+                  </label>
+                  <span class="input-label">Music Prodigy</span>
+              </div>
+            
+                <div class="item item-divider">Favorite Social Media Network..</div>
+                
+                <ion-list>
+                    <ion-radio icon="ion-social-facebook" ng-model="choice">Facebook</ion-radio>
+                    <ion-radio icon="ion-social-twitter" ng-model="choice">Twitter</ion-radio>
+                    <ion-radio icon="ion-social-youtube" ng-model="choice">Youtube</ion-radio>
+                </ion-list>
+                      
+                 <div class="item item-toggle">
+                     <span class="input-toggle">Awesomeness</span>
+                     <label class="toggle">
+                         <input type="checkbox">
+                         <div class="track"><div class="handle"></div></div>
+                     </label>
+                 </div>     
+                
            </div>        
       </ion-content>
       
