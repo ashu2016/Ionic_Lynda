@@ -47,38 +47,7 @@
                   <span class="input-label">Last Name</span>
                   <input type="text" placeholder="Your Last Name">
               </label>
-              
-              <div class="item item-divider">I want to be a ...</div>
-              
-              <div class="item item-checkbox">
-                  <label class="checkbox">
-                      <input type="checkbox">
-                  </label>
-                  <span class="input-label">Rockstar</span>
-              </div>
-              
-                <div class="item item-checkbox">
-                  <label class="checkbox">
-                      <input type="checkbox">
-                  </label>
-                  <span class="input-label">Hollywood Star</span>
-              </div>
-              
-                <div class="item item-checkbox">
-                  <label class="checkbox">
-                      <input type="checkbox">
-                  </label>
-                  <span class="input-label">Music Prodigy</span>
-              </div>
-            
-                <div class="item item-divider">Favorite Social Media Network..</div>
-                
-                <ion-list>
-                    <ion-radio icon="ion-social-facebook" ng-model="choice">Facebook</ion-radio>
-                    <ion-radio icon="ion-social-twitter" ng-model="choice">Twitter</ion-radio>
-                    <ion-radio icon="ion-social-youtube" ng-model="choice">Youtube</ion-radio>
-                </ion-list>
-                      
+                                    
                  <div class="item item-toggle">
                      <span class="input-toggle">Awesomeness</span>
                      <label class="toggle">
@@ -86,7 +55,21 @@
                          <div class="track"><div class="handle"></div></div>
                      </label>
                  </div>     
+                 
+                 <div class="item range range-positive">
+                     <i class="icon ion-sad-outline"></i>
+                     <input type="range" min="0" max="100" name="feeling" value="50">
+                     <i class="icon ion-happy"></i>
+                 </div>
                 
+                <label for="" class="item item-input item-select">
+                    <div class="input-label">Favorite Pet</div>
+                    <select>
+                        <option>Dogs</option>
+                        <option>Cats</option>
+                        <option>Llamas</option>
+                    </select>
+                </label>
            </div>        
       </ion-content>
       
